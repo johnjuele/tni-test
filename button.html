@@ -15,7 +15,22 @@
 </head>
 <body>
     <form id="true" action="http://truenorthinc.com">
-        <button type="button">Go to True North</button>
+        <div class="button-container">
+            <div class="button-container-left">NOT WORKING/ORIGINAL:<br>
+            <button type="button">Go to True North</button></div>
+            <div class="button-container-right">WORKING:<br>
+            
+            <button type="submit" value="Go To True North">Go to True North</button><br>
+            
+            OR:<br>
+            <input type="submit" value="Go To True North"></div>
+        </div>
+        <div class="button-container divider">
+            <div class="button-container-left">EXTRA CREDIT:<br>
+            <button type="button" onclick="onclickcounter();">Click Counter</button></div>
+            
+            <div class="button-container-right">Number of Clicks: <span id="displayclicks">0</span></div>
+        </div>
     </form>
 </body>
 </html>
